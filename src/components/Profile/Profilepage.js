@@ -16,7 +16,7 @@ function Profilepage() {
       <form id="form" className="validate">
         <div className="form-field">
           <label>Full Name :</label>
-          <label>{userData.name}</label>
+          <label data-testid="DisplayData" >{userData.name}</label>
         </div>
         <div className="form-field">
           <label>Email :</label>
